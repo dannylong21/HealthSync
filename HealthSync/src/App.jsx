@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import Header from './components/header.jsx';
+import LoginForm from './components/loginForm.jsx';
 function App() {
 
+
   return (
-    <>
-      
-    </>
+    <div>
+    <Header />
+      <main className="p-4">
+        <LoginForm />
+      </main>
+    </div>
   )
 }
 
